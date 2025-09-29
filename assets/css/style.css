@@ -177,8 +177,8 @@ section:nth-child(even) {
 /* Language Selector */
 .language-selector {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 50px;
+    right: 50px;
     z-index: 1000;
     display: flex;
     gap: 5px;
