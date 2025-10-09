@@ -313,11 +313,13 @@ section:nth-child(even) {
 }
 
 #hero-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* يخلي الفيديو يملأ الخلفية */
+  z-index: -1; /* يخليه ورا المحتوى */
 }
 
 .hero-overlay {
